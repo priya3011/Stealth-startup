@@ -8,7 +8,7 @@ namespace Stealth_Startup
     class ScheduleOrders
     {
         private static readonly string projectFolder = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
-        private static readonly string fileName = @"coding-assigment-orders.json";
+        private static readonly string fileName = @"orders.json";
         private readonly string orderFilePath = Path.Combine(projectFolder, fileName);
       
         private ScheduleFlights scheduledFlights;
